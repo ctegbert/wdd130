@@ -1,3 +1,26 @@
+User
+/* Styling main sections */
+main section {
+    margin-bottom: 30px; /* Add margin between FAQ sections */
+    padding: 0 20px; /* Add padding to content */
+}
+
+/* Styling FAQ question titles */
+.faq-section h2 {
+    color: #113139; /* Text color */
+    margin-top: 20px; /* Add margin above each question */
+    text-align: left; /* Align text left for FAQ question titles */
+}
+
+/* Styling FAQ answers */
+.faq-section p {
+    font-size: 18px; /* Font size for FAQ answers */
+    color: #fff;
+    line-height: 1.5em; /* Line height for better readability */
+    text-align: left; /* Align text left for FAQ answers */
+}
+
+
 /* Resetting default margin and padding */
 body, header, footer {
     margin: 0;
@@ -7,7 +30,7 @@ body, header, footer {
 /* Styling body */
 body {
     background-color: #0090c1; /* Background color */
-    color: #38aecc; /* Text color */
+    color: #fff; /* Text color */
     font-family: 'Roboto Condensed', Arial, sans-serif; /* Font declaration */
     font-size: 22px; /* Default font size for the whole page */
     margin: 0;
@@ -22,6 +45,30 @@ header {
     text-align: center;
     display: grid;
     grid-template-columns: 150px auto;
+}
+
+.logo {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#hero-img {
+    display: block;
+    width: 100%; /* Set the width to 100% */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: none; /* Remove the maximum width constraint */
+}
+
+.card-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.mountains {
+    display: block;
+    width: 100%; /* Set the width to 100% */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: none; /* Remove the maximum width constraint */
 }
 
 /* Styling navigation menu */
@@ -90,7 +137,38 @@ main section {
 /* Styling FAQ answers */
 .faq-section p {
     font-size: 18px; /* Font size for FAQ answers */
+    color: #fff;
     line-height: 1.5em; /* Line height for better readability */
+}
+
+.hero-image {
+    align-self: center;
+}
+
+
+h1 {
+    text-align: center;
+    
+}
+
+h4 {
+    text-align: center;
+ 
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.body-image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 80%;
 }
 
 /* Styling footer */
@@ -120,3 +198,11 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+.footer-image {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 20px; /* Adjust margin from the top */
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+}
+
