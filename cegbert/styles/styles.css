@@ -1,0 +1,198 @@
+/* Reset some default styles */
+body, ul, nav, footer, header {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sukar', sans-serif;
+    background-color: #a5a5a5;
+    color: #022f40;
+}
+
+header {
+    background-color: #38aecc;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Bombshell Pro', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin-right: auto; /* Push other content to the right */
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+nav {
+    background-color: #38aecc;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #0090c1;
+}
+
+main {
+    padding: 20px;
+}
+
+hr {
+    border: 1px solid #38aecc;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3, h4 {
+    color: #0090c1;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.colors {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.colors th, .colors td {
+    padding: 10px;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #38aecc;
+    color: #fff;
+}
+
+.colors td {
+    background-color: #f0f0f0;
+}
+
+.sitemap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sitemap > div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.sitemap > .top, .sitemap > .left, .sitemap > .right {
+    flex-basis: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px; /* Center horizontally with auto margins and add bottom margin */
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #38aecc;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Spacing between elements */
+    align-items: center;
+}
+
+.left-aligned {
+    color: #fff;
+}
+
+.centered {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto; /* Center the text */
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Add some space between logo and navigation */
+    margin-top: 15px;
+}
+
+/* Adjusted CSS for the header */
+
+header {
+    background-color: #38aecc;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Add some space between logo and text */
+}
+
+nav {
+    margin-left: auto; /* Push navigation to the right */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
